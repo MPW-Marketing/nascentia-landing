@@ -107,7 +107,7 @@ input {
 }
 
 #hero {
-    background-image: url(https://www.nascentiahealth.org/wp-content/uploads/2017/06/nacentia-hero.png);
+    background-image: url(https://www.nascentiahealth.org/wp-content/uploads/2017/07/nacentia-hero-1-1.png);
     /*min-height: 500px; */
     background-size: contain;
     background-position: 100% 0;
@@ -160,7 +160,7 @@ input {
 
 @media screen and (max-width:840px) {
     #hero {
-        background-image: url(https://www.nascentiahealth.org/wp-content/uploads/2017/06/nascentia-mobile-1-1.jpg);
+        background-image: url(https://www.nascentiahealth.org/wp-content/uploads/2017/07/nascentia-mobile-1.png);
         background-position: 100% 100%;
         padding-top: 16px;
     }
@@ -183,7 +183,7 @@ input {
         text-align: center;
     }
     #hero {
-        background-image: url(https://www.nascentiahealth.org/wp-content/uploads/2017/06/nascentia-mobile-1-1.jpg);
+        background-image: url(https://www.nascentiahealth.org/wp-content/uploads/2017/07/nascentia-mobile-1.png);
         background-position: 100% 100%;
         padding-top: 16px;
     }
