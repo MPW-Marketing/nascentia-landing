@@ -34,11 +34,12 @@ input {
     width: 100%;
     text-align: right;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .main-navigation li {
     float: none;
+    display: inline-block;
 }
 
 @media only screen and (max-width: 519px) {
@@ -160,7 +161,7 @@ input {
 
 @media screen and (max-width:840px) {
     #hero {
-        background-image: url(https://www.nascentiahealth.org/wp-content/uploads/2017/07/nascentia-mobile-1.png);
+        background-image: url(https://www.nascentiahealth.org/wp-content/uploads/2017/06/nascentia-mobile-1-1.jpg);
         background-position: 100% 100%;
         padding-top: 16px;
     }
@@ -183,7 +184,7 @@ input {
         text-align: center;
     }
     #hero {
-        background-image: url(https://www.nascentiahealth.org/wp-content/uploads/2017/07/nascentia-mobile-1.png);
+        background-image: url(https://www.nascentiahealth.org/wp-content/uploads/2017/06/nascentia-mobile-1-1.jpg);
         background-position: 100% 100%;
         padding-top: 16px;
     }
@@ -236,7 +237,7 @@ input {
 
 .site-header {
     padding-bottom: 0;
-    height: 105px;
+    height: 115px;
 }
 
 .site-title a {
@@ -337,4 +338,70 @@ input {
 #footercontainer a,
 #footercontainer a:visited {
     color: #373737;
+}
+
+
+/*hiring section*/
+
+#hiring {
+    z-index: 1;
+    position: relative;
+}
+
+#hiring {
+    z-index: 1;
+    position: relative;
+    background-image: url(https://www.nascentiahealth.org/wp-content/uploads/2017/08/join-team-image.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    min-height: 400px;
+}
+
+.hiring-text {
+    max-width: 450px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    float: left;
+}
+
+.hiring-text h3 {
+    font-size: 32px;
+    margin-bottom: 24px;
+font-weight:100;
+}
+
+.hiring-text p {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:767px) {
+    #hiring {
+        background-image: none;
+    }
+}
+
+.hiring-text .button-container {
+    float: left;
+    margin-top: 24px;
+}
+
+.hiring-text .button-container .button {
+    display: block;
+}
+
+.hero-button a:visited {
+color:white !important;
+}
+
+.logo-container div {
+  display: inline;
+align:center;
+}
+.logo-container img {
+  max-width: 100%;
+  vertical-align: middle;
+padding:20px;
 }
